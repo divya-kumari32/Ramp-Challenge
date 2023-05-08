@@ -102,8 +102,7 @@ export function InputSelect<TItem>({
                   item,
                   className: classNames("RampInputSelect--dropdown-item", {
                     "RampInputSelect--dropdown-item-highlighted": highlightedIndex === index,
-                    "RampInputSelect--dropdown-item-selected":
-                      parsedSelectedItem?.value === parsedItem.value,
+                    "RampInputSelect--dropdown-item-selected": parsedSelectedItem?.value === parsedItem.value,
                   }),
                 })}
               >

@@ -13,8 +13,7 @@ export const Transactions: TransactionsComponent = ({ transactions }) => {
         transactionId,
         value: newValue,
       })
-    },
-    [fetchWithoutCache]
+    }, [fetchWithoutCache]
   )
 
   if (transactions === null) {
